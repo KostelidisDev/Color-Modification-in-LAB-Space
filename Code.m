@@ -49,6 +49,9 @@ image_in_lab_color_space(top_right_x, top_right_y, 2:3) = 0;
 image_in_lab_color_space(bottom_left_x, bottom_left_y, 1) = 50;
 image_in_lab_color_space(bottom_left_x, bottom_left_y, 3) = 0;
 
+image_in_lab_color_space(bottom_right_x, bottom_right_y, 1) = 50;
+image_in_lab_color_space(bottom_right_x, bottom_right_y, 2) = 0;
+
 image_in_lab_color_space_as_rgb = lab2rgb(image_in_lab_color_space);
 clear image_in_lab_color_space;
 
