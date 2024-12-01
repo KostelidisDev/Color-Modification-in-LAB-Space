@@ -13,7 +13,7 @@ clear input_image_file;
 
 [image_height, image_width, ~] = size(input_image);
 image_aspect_ratio = image_width / image_height;
-clear image_width image_height image_depth;
+clear image_width image_height;
 
 target_image_width = target_image_height * image_aspect_ratio;
 clear image_aspect_ratio;
