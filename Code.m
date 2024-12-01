@@ -41,3 +41,5 @@ bottom_left_y = 1:image_width_middle;
 bottom_right_x = image_height_middle:image_height;
 bottom_right_y = image_width_middle:image_width;
 
+clear image_height image_width;
+clear image_height_middle image_width_middle;
