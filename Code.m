@@ -20,3 +20,6 @@ clear image_aspect_ratio;
 
 scaled_image = imresize(input_image, [target_image_height target_image_width], "bicubic");
 clear input_image target_image_height target_image_width;
+
+image_in_lab_color_space = rgb2lab(scaled_image);
+clear scaled_image;
