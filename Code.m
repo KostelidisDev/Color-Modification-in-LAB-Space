@@ -4,7 +4,8 @@ clear;
 clc;
 
 % User Configurable Variables
-input_image_file = 'peppers.png';
+%input_image_file = 'peppers.png';
+input_image_file = 'Demo.jpg';
 target_image_height = 500;
 
 % Main Script

@@ -14,6 +14,9 @@ The processed image is finally converted back to the RGB color space and display
 
 [MIT License](./LICENSE)
 
+# Atrributes
+The Demo.jpg image is from [Pixabay.com](https://pixabay.com/photos/animal-bear-mammal-species-fauna-9156395/)
+
 # Disclaimer
 
 This project was conducted as part of the course Ρ104: Robotic Vision in the M.Sc. program in Robotics, offered by the
