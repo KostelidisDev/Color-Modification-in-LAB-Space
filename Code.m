@@ -25,3 +25,19 @@ image_in_lab_color_space = rgb2lab(scaled_image);
 clear scaled_image;
 
 [image_height, image_width, ~] = size(image_in_lab_color_space);
+image_height_middle = floor(image_height/2);
+image_width_middle = floor(image_width/2);
+
+% Unused
+% top_left_x = 1:image_height_middle;
+% top_left_y = 1:image_width_middle;
+
+top_right_x = 1:image_height_middle;
+top_right_y = image_width_middle:image_width;
+
+bottom_left_x = image_height_middle:image_height;
+bottom_left_y = 1:image_width_middle;
+
+bottom_right_x = image_height_middle:image_height;
+bottom_right_y = image_width_middle:image_width;
+
