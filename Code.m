@@ -17,3 +17,6 @@ clear image_width image_height image_depth;
 
 target_image_width = target_image_height * image_aspect_ratio;
 clear image_aspect_ratio;
+
+scaled_image = imresize(input_image, [target_image_height target_image_width], "bicubic");
+clear input_image target_image_height target_image_width;
