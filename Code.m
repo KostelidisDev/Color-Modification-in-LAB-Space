@@ -45,3 +45,9 @@ clear image_height image_width;
 clear image_height_middle image_width_middle;
 
 image_in_lab_color_space(top_right_x, top_right_y, 2:3) = 0;
+
+image_in_lab_color_space_as_rgb = lab2rgb(image_in_lab_color_space);
+clear image_in_lab_color_space;
+
+figure; imshow(image_in_lab_color_space_as_rgb);
+clear image_in_lab_color_space_as_rgb;
