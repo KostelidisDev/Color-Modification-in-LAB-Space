@@ -10,6 +10,10 @@ This MATLAB project processes an input image by resizing it to a user-defined he
 
 The processed image is finally converted back to the RGB color space and displayed. This project demonstrates image transformation, color space manipulation, and quadrant-based editing techniques.
 
+# Extra files
+** The extra files are written in Greek Language.
+* [PDF/Text](./assets/Ρ104%20-%20Color%20Modification%20in%20LAB%20Space.pdf)
+
 # License
 
 [MIT License](./LICENSE)
