@@ -23,3 +23,5 @@ clear input_image target_image_height target_image_width;
 
 image_in_lab_color_space = rgb2lab(scaled_image);
 clear scaled_image;
+
+[image_height, image_width, ~] = size(image_in_lab_color_space);
